@@ -1,0 +1,32 @@
+{
+    "poppins": {
+        "500": "\/var\/www\/html\/demo_project_1\/public\/fonts\/poppins_500_f070e48071514738813321a8a4d9d75f",
+        "normal": "poppins_normal_2d08a30af2f94edffe202bf1371b85c8"
+    },
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_ba95da0e0ed26cb50aa2f3bfa6de4224"
+    },
+    "font awesome 6 free": {
+        "normal": "\/var\/www\/html\/yuvashakti Foundation\/yuva-shakti-foundation\/public\/fonts\/font_awesome_6_free_normal_d14e05f732166b536c9f3e3c128da324",
+        "900": "font_awesome_6_free_900_fc6b653d35d5d856773a176618f15b8a"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_ba95da0e0ed26cb50aa2f3bfa6de4224"
+    },
+    "font awesome 5 free": {
+        "900": "\/var\/www\/html\/yuvashakti Foundation\/yuva-shakti-foundation\/public\/fonts\/font_awesome_5_free_900_fc6b653d35d5d856773a176618f15b8a",
+        "normal": "font_awesome_5_free_normal_d14e05f732166b536c9f3e3c128da324"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_e1a313ca83905f53a32ee29693775520"
+    },
+    "glyphicons halflings": {
+        "normal": "glyphicons_halflings_normal_4bf4c90600ef2617211b8a7969a7b830"
+    },
+    "oswald": {
+        "300": "oswald_300_ad84f0fbaa338a6dee82dd72a83ea3ad"
+    },
+    "bonheur royale": {
+        "normal": "bonheur_royale_normal_f88e19530069183de2ee9adcb0cd86ec"
+    }
+}

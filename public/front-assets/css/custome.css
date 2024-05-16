@@ -1,0 +1,1338 @@
+.header-logo {
+    max-width: 170px;
+}
+.nav-item {
+    width: 100% !important;
+    padding-left: 16px;
+    /* margin-left: 20px; */
+    /* margin: 1.1rem 1rem !important; */
+}
+
+.nav-item-active {
+    width: 100% !important;
+    background-color: rgba(143, 140, 193, 0.37);
+    border-radius: 45px 0px 0px 45px;
+    padding-left: 16px;
+}
+
+.nav-item a i {
+    color: #000000;
+}
+
+.nav-item-active a i {
+    color: #4a43c1;
+}
+
+.nav-item a {
+    color: #000000;
+}
+
+.nav-item-active a {
+    color: #4a43c1;
+}
+.search-input {
+    border: 1px solid #c1c1c1 !important;
+    border-radius: 40px;
+    padding: 5px;
+}
+#search-box i {
+    position: relative;
+    display: flex;
+}
+#search-box input {
+    position: absolute;
+    display: flex;
+}
+/* Styles for wrapping the search box */
+
+.main {
+    width: 100%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+.login-btn {
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #4a43c1;
+    color: aliceblue;
+    box-shadow: inset;
+}
+
+.live-show-img img {
+    max-width: 270px;
+    border-radius: 10px;
+}
+.play-icon {
+    /* padding: 30px; */
+    background-color: #4a43c1;
+    border-radius: 50px;
+    max-width: 156px;
+}
+.live-show-img span svg {
+    border: white;
+}
+.live-show-img span {
+    color: white;
+}
+.rj-name {
+    color: #4a43c1 !important   ;
+}
+.pause-btn-1 svg {
+    margin-right: auto !important;
+}
+.trending-reads {
+    padding: 5px !important;
+}
+.trending-reads h4 {
+    border-left: 5px #4a43c1 solid;
+    padding-left: 10px;
+}
+.blog-author-name {
+    padding: 5px;
+    font-size: small;
+}
+.trending-reads-item {
+    margin-bottom: 10px;
+}
+img {
+    max-width: 100%;
+}
+
+.slide {
+    max-width: 100%;
+    display: grid;
+    box-shadow: 0 4px 20px 2px rgba(0, 0, 0, 0.4);
+}
+
+.slide-items {
+    position: relative;
+    grid-area: 1/1;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.slide-nav {
+    grid-area: 1/1;
+    z-index: 1;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto 1fr;
+}
+
+.slide-nav button {
+    -webkit-appearance: none;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    opacity: 0;
+}
+
+.slide-items > * {
+    position: absolute;
+    top: 0px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.slide-items > .active {
+    position: relative;
+    opacity: 1;
+    pointer-events: initial;
+}
+
+.slide-thumb {
+    display: flex;
+    grid-column: 1 / 3;
+}
+
+.slide-thumb > span {
+    flex: 1;
+    display: block;
+    height: 3px;
+    background: rgba(0, 0, 0, 0.4);
+    margin: 5px;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.slide-thumb > span.active::after {
+    content: "";
+    display: block;
+    height: inherit;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 3px;
+    transform: translateX(-100%);
+    animation: thumb 5s forwards linear;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+}
+.text-primary {
+    color: #4a43c1 !important;
+}
+.music-article {
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+.rj-card {
+    height: 124px;
+    width: 230px;
+    border: 1px solid rgb(187 184 184);
+    border-radius: 20px;
+}
+.rj-card img {
+    height: 69px;
+    width: 100px;
+    border-radius: 100%;
+    max-height: 200px;
+}
+.rj-details {
+    font-size: 12px !important;
+    line-height: 12px !important;
+}
+.rj-follow-btn {
+    background-color: #4a43c1;
+    color: aliceblue;
+    border-radius: 30px !important;
+}
+
+.mySwiper1 {
+    height: 170px !important;
+}
+
+/* .swiper-button-next,
+.swiper-button-prev {
+    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    right:10px;
+    padding: 30px;
+    color: #000 !important;
+    fill: black !important;
+    stroke: black !important;
+} */
+.movie-poster {
+    height: 250px !important;
+    width: 150px !important;
+}
+.user-icon-1{
+    width: 150px;
+}
+.mtmf-content{
+    margin: 0rem 0rem 0rem 1rem;
+}
+.commnet-form {
+    margin: 2rem 2rem;
+}
+footer {
+    background-color: #4a43c1;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 40px;
+    margin-top: auto;
+    width: 110% !important;
+}
+.footer-address-1 {
+    text-align: start;
+}
+.social-icons {
+    width: 33px;
+}
+.photo-story-img {
+    /* min-height: 200px;
+    max-height: 250px */
+    height: 250px;
+    width: 100%;
+}
+.article-img-1 {
+    width: 100%;
+}
+.goverment-schemes-container{
+    margin: 0;
+}
+.photo-story {
+    /* margin-bottom: 3rem !important; */
+}
+.live-show-poster-1 {
+    max-width: 23% !important;
+}
+.meet-our-rj-sectio-1 {
+    padding-left: 1.5rem !important;
+}
+.podcast-video {
+    padding-bottom: 1.5rem !important;
+}
+.video-1 {
+    width: 100% !important;
+}
+.reads-img-1:hover {
+    transition: all ease 0.4s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+/* .music-article h5{
+    border-left: 5px #4A43C1 solid;
+    padding-right: 1.5rem !important;
+} */
+.blog-type {
+    border-left: 5px #4a43c1 solid;
+    /* padding-right: 1.5rem !important; */
+    padding-left: 0.9rem !important;
+}
+.blog-content-1 {
+    font-size: 14px;
+    line-height: 20.2px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 8px;
+}
+.movie-review-card {
+    color: rgb(255, 215, 0);
+    font-size: 16px;
+    border: 1px solid #eee;
+    padding: 1px 8px;
+    background-color: #eee;
+}
+.other-blogs {
+    padding-top: 20px !important;
+}
+.active-list-item {
+    color: #da602b !important;
+}
+.modal-dialog {
+    margin: 0 auto !important;
+}
+.story-slide {
+    max-height: 100vh !important;
+    width: inherit !important;
+}
+.blog-img {
+    height: auto;
+    width: 100%;
+}
+.dropdown-menu {
+    margin: 10px 10px !important;
+}
+/* .modal-body{
+    padding: 0% !important;
+} */
+.government-schemas-article-img-main {
+    height: 400px !important;
+}
+.is-helpful {
+    display: flex;
+    background-color: #ffffff;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.is-helpful-active {
+    display: flex;
+    background-color: #b9c4ea !important;
+    align-items: center;
+    border: 1px solid #eee;
+    border-radius: 30px;
+    padding: 10px 20px;
+}
+.is-helpful img {
+    height: 30px;
+    padding-right: 5px;
+}
+.video-container {
+    min-width: 100%;
+    min-height: 500px;
+}
+a {
+    text-decoration: none;
+}
+.footer-address {
+    padding: 0 110px;
+}
+.footer-social {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.blog-list-1 {
+    width: auto;
+    margin-top: 20px !important;
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+.blog-list-1 img {
+    height: auto;
+}
+.blog-heading {
+    margin-bottom: 10px;
+}
+.contact-us-heading-section {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-display: inherit;
+    font-style: italic;
+    padding: 2rem 0rem;
+}
+.address-section {
+    align-items: center;
+    padding: 2rem;
+    padding-left: 3rem;
+    font-size: larger;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+        sans-serif;
+    font-style: italic;
+    color: #000 !important;
+}
+/* .address-section p{
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    color: #000;
+} */
+.exampleInputEmail1 {
+    border: 1px solid #e1d3d3 !important;
+}
+.exampleInputEmail1:focus {
+    border: 1px solid #4a43c1 !important;
+    box-shadow: 0 0 0 0rem !important;
+}
+.static-content {
+    margin: 0 0;
+}
+.contact-us-form-1 {
+    padding: 0.5rem 12rem;
+}
+.contact-us-form-1 div{
+    padding: 0;
+}
+.job-description p {
+    padding-top: 0.5rem;
+    padding-bottom: 1rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    font-size: medium;
+    text-align: justify;
+}
+.goverment-schemes-section{
+    width: 100% !important;
+    text-align: justify;
+    padding-left: 10px !important;
+}
+
+.cover-img {
+    width: 390px !important;
+    height: 250px !important;
+}
+.zoom-in-out-box:hover {
+    animation: zoom-in-zoom-out 2s ease infinite;
+    color: #4a43c1 !important;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.1, 1.1);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+footer {
+    width: 110% !important;
+}
+.footer-social-heading {
+    text-align: center !important;
+}
+@keyframes thumb {
+    to {
+        transform: initial;
+    }
+}
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .nav-item-active {
+        width: 100% !important;
+        background-color: rgba(143, 140, 193, 0.37);
+        border-radius: 2px;
+        /* padding-left: 0px; */
+        padding-right: 16px;
+    }
+    .nav-item {
+        width: 100% !important;
+        /* padding-left: 0px; */
+        /* margin-left: 20px; */
+        /* margin: 1.1rem 1rem !important; */
+    }
+    .header-logo {
+        max-width: 65px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .header-custome-1 {
+        overflow: hidden;
+    }
+    .main {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .search-input {
+        /* width: auto !important; */
+    }
+    .header-custome-2 {
+        justify-content: flex-start !important;
+    }
+    #live-show-section {
+        padding-left: 0 !important;
+    }
+    .live-show-img img {
+        max-width: 170px;
+        border-radius: 10px;
+    }
+    .show-detail {
+        width: fit-content;
+        /* padding-right: 175px; */
+        text-align: justify;
+    }
+    .photo-story-img {
+        /* min-height: 100px;
+        max-height: 150px */
+        height: 250px;
+        width: 100%;
+    }
+    .swiper-slide {
+        /* max-width: 110px !important; */
+    }
+    .swiper {
+        width: 460px;
+        height: 100%;
+    }
+    .article-img-1 {
+        max-width: 270px !important;
+    }
+    .reads {
+        width: 270px !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .commnet-form {
+        margin-left: 1rem;
+        margin-right: auto;
+    }
+    .music-articles {
+        width: 100% !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .meet-our-rj-section {
+        padding-left: 5px;
+    }
+    .swiper {
+        max-width: 230px !important;
+        padding: auto;
+    }
+    .rj-card {
+        font-size: 12px !important;
+    }
+    .movie-review {
+        padding: 5px;
+    }
+    .trending-reads {
+        /* padding: 5px !important; */
+        /* padding-left: 10px !important; */
+        margin-top: 1.5rem !important;
+        margin-left: 1rem !important;
+    }
+    .trending-reads-img img {
+        max-width: 100% !important;
+    }
+    .trending-reads-content {
+        width: 100% !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .heading {
+        width: 90% !important;
+        padding: 2px !important;
+    }
+    .play-icon {
+        padding-right: 0.5rem !important;
+        padding-left: 0.5rem !important;
+    }
+    .opiton-btn-1 button {
+        margin-left: 0.5rem !important;
+    }
+    .live-show-poster-1 {
+        max-width: 100% !important;
+    }
+    .video-1 {
+        width: 100% !important;
+    }
+    .blog-1 h4 {
+        font-size: 14px !important;
+    }
+    .blog-main-1 {
+        padding: 20px 0% !important;
+        margin: 0% !important;
+    }
+    .dropdown-menu {
+        margin: 10px 10px !important;
+    }
+
+    .government-schemas-article-img-main {
+        height: 200px !important;
+    }
+    .video-container {
+        min-height: auto;
+        width: 100%;
+    }
+
+    .job-description p {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    .cover-img {
+        width: 390px !important;
+        height: 130px !important;
+    }
+    .address-section {
+        align-items: center;
+        padding: 1.5rem;
+        padding-left: 0.5rem;
+    }
+    .address-section p {
+        font-size: 18px;
+    }
+    .contact-us-form-1 {
+        padding: 0.5rem 0rem;
+    }
+    .footer-address {
+        padding: 1rem;
+        margin-top: 20px;
+    }
+    .footer-social {
+        padding: 1rem !important;
+        margin: 0 !important;
+    }
+    footer {
+        width: 110% !important;
+        padding: 40px 0px;
+    }
+    .footer-address-1 {
+        text-align: start;
+    }
+    .footer-social-heading {
+        text-align: start !important;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .nav-item-active {
+        width: 100% !important;
+        background-color: rgba(143, 140, 193, 0.37);
+        border-radius: 0px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .nav-item {
+        width: 100% !important;
+        padding-left: 16px;
+        margin-left: 7px;
+        font-size: 12px;
+        /* margin: 1.1rem 1rem !important; */
+    }
+    .nav-item-active {
+        width: 100% !important;
+        background-color: rgba(143, 140, 193, 0.37);
+        border-radius: 45px 0px 0px 45px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header-logo {
+        max-width: 80px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .header-custome-1 {
+        overflow: hidden;
+    }
+    .main {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .search-input {
+        width: auto !important;
+    }
+    .header-custome-2 {
+        justify-content: flex-start !important;
+    }
+    #live-show-section {
+        padding-left: 1.5rem !important;
+    }
+    .live-show-img img {
+        max-width: 170px;
+        border-radius: 10px;
+    }
+    .show-detail {
+        width: fit-content;
+        /* padding-right: 175px; */
+        text-align: justify;
+    }
+    .photo-story-img {
+        /* min-height: 100px;
+        max-height: 150px */
+        height: 250px;
+        width: auto;
+    }
+    .swiper-slide {
+        /* max-width: 110px !important; */
+    }
+    .swiper {
+        width: 460px;
+        height: 194px;
+    }
+    .job-description p {
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+        padding-left: 12rem;
+        padding-right: 12rem;
+        font-size: medium;
+        text-align: justify;
+    }
+
+    .article-img-1 {
+        max-width: 270px !important;
+    }
+    .reads {
+        width: 270px !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .music-articles {
+        width: 270px !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .meet-our-rj-section {
+        padding-left: 5px;
+    }
+    .swiper {
+        /* max-width: 230px !important; */
+        padding: auto;
+    }
+    .rj-card {
+        font-size: 12px !important;
+    }
+    .movie-review {
+        padding: 5px;
+    }
+    .trending-reads {
+        padding: 5px !important;
+        padding-left: 10px !important;
+        margin-top: 1.5rem !important;
+        margin-left: 1.5rem !important;
+    }
+    .trending-reads-img img {
+        max-width: 223px !important;
+    }
+    .trending-reads-content {
+        width: 100% !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .heading {
+        width: 270px !important;
+        padding: 5px !important;
+    }
+    .live-show-poster-1 {
+        max-width: 23% !important;
+    }
+    .video-1 {
+        width: 100% !important;
+    }
+    .blog-main-1 {
+        padding: 0% !important;
+        margin: 20px 0px !important;
+    }
+
+    .dropdown-menu {
+        margin: 10px 10px !important;
+    }
+    .government-schemas-article-img-main {
+        height: 400px !important;
+    }
+    .video-container {
+        min-width: 100%;
+        min-height: 500px;
+    }
+    .cover-img {
+        width: 290px !important;
+        height: 180px !important;
+    }
+    .commnet-form {
+        margin: 2rem 2rem;
+    }
+    .address-section {
+        align-items: center;
+        padding: 2rem;
+        padding-left: 3rem;
+    }
+    .address-section p {
+        font-size: 22px;
+    }
+    .static-content {
+        margin: 0 0;
+    }
+    .contact-us-form-1 {
+        padding: 0.5rem 0rem;
+    }
+    .footer-address {
+        padding: 0 0px;
+    }
+    .footer-social {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    footer {
+        width: 110% !important;
+        padding: 40px 0px;
+    }
+    .footer-address-1 {
+        text-align: start;
+    }
+    .footer-social-heading {
+        text-align: center !important;
+    }
+    .blog-list-1 {
+        width: auto;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .nav-item-active {
+        width: 100% !important;
+        background-color: rgba(143, 140, 193, 0.37);
+        border-radius: 45px 0px 0px 45px;
+        padding-left: 16px;
+    }
+
+    .nav-item-active {
+        width: 100% !important;
+        background-color: rgba(143, 140, 193, 0.37);
+        border-radius: 45px 0px 0px 45px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header-logo {
+        max-width: 100px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .header-custome-1 {
+        overflow: hidden;
+    }
+    .main {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .search-input {
+        width: auto !important;
+    }
+    .header-custome-2 {
+        justify-content: flex-start !important;
+    }
+    .user-icon-1{
+        width: 150px;
+    }
+    #live-show-section {
+        padding-left: 1.5rem !important;
+    }
+    .live-show-img img {
+        max-width: 170px;
+        border-radius: 10px;
+    }
+    .show-detail {
+        width: fit-content;
+        /* padding-right: 175px; */
+        text-align: justify;
+    }
+    .photo-story-img {
+        /* min-height: 100px;
+        max-height: 150px */
+        height: 180px;
+        width: auto;
+    }
+    .swiper-slide {
+        /* max-width: 110px !important; */
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    .article-img-1 {
+        max-width: 270px !important;
+    }
+    .reads {
+        width: 270px !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .commnet-form {
+        margin-left: 1rem;
+        margin-right: auto;
+    }
+    .music-articles {
+        width: 270px !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .address-section {
+        align-items: center;
+        padding: 2rem;
+        padding-left: 3rem;
+    }
+    .contact-us-form-1 {
+        padding: 0.5rem 1.5rem;
+    }
+    .mtmf-content{
+        margin: 0rem 0rem 0rem 3rem;
+    }
+    .meet-our-rj-section {
+        padding-left: 5px;
+    }
+    .swiper {
+        /* max-width: 230px !important; */
+        padding: auto;
+    }
+    .rj-card {
+        font-size: 12px !important;
+    }
+    .movie-review {
+        padding: 5px;
+    }
+    .job-description p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .trending-reads {
+        padding: 5px !important;
+        padding-left: 10px !important;
+        margin-top: 1.5rem !important;
+        margin-left: 1.5rem !important;
+    }
+    .trending-reads-img img {
+        max-width: 100% !important;
+    }
+    .trending-reads-content {
+        width: 100% !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .goverment-schemes-container{
+        margin-left: 2rem;
+        margin-right: auto;
+    }
+    .heading {
+        width: 540px !important;
+        padding: 5px !important;
+    }
+    .photo-stories {
+        margin-left: 1.5rem !important;
+    }
+    .live-show-poster-1 {
+        max-width: 40% !important;
+    }
+    .video-1 {
+        width: 100% !important;
+    }
+    .dropdown-menu {
+        margin: 0px 185px !important;
+    }
+    .government-schemas-article-img-main {
+        height: 400px !important;
+    }
+    .static-content {
+        margin: 0 0;
+    }
+    .video-container {
+        min-width: 100%;
+        min-height: auto;
+    }
+
+    .footer-address {
+        padding: 0 0px;
+        font-size: 14px;
+    }
+    .footer-social {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    footer {
+        width: 110% !important;
+        padding: 40px 0px;
+    }
+    .footer-address-1 {
+        text-align: center;
+    }
+    .footer-social-heading {
+        text-align: center !important;
+    }
+    .blog-list-1 {
+        width: auto;
+        margin-left: 15px !important;
+        margin-right: 15px !important;
+    }
+    .blog-list-1 img {
+        height: 17rem;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .nav-item-active {
+        width: 100% !important;
+        background-color: rgba(143, 140, 193, 0.37);
+        border-radius: 45px 0px 0px 45px;
+        padding-left: 16px;
+    }
+    .nav-item-active {
+        width: 100% !important;
+        background-color: rgba(143, 140, 193, 0.37);
+        border-radius: 45px 0px 0px 45px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+     .nav-item {
+        font-size: 16px;
+    }
+    .header-logo {
+        max-width: 80px;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .header-custome-1 {
+        overflow: hidden;
+    }
+    .user-icon-1{
+        width: 80px;
+    }
+    .main {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .search-input {
+        width: auto !important;
+    }
+    .header-custome-2 {
+        justify-content: flex-start !important;
+    }
+    #live-show-section {
+        padding-left: 1.5rem !important;
+    }
+    .live-show-img img {
+        max-width: 170px;
+        border-radius: 10px;
+    }
+    .show-detail {
+        width: fit-content;
+        /* padding-right: 175px; */
+        text-align: justify;
+    }
+    .photo-story-img {
+        /* min-height: 100px;
+        max-height: 200px */
+        height: 250px;
+        width: auto;
+    }
+    .swiper-slide {
+        /* max-width: 210px !important; */
+    }
+    .swiper {
+        /* width: 460px;
+        height: 194px; */
+    }
+    .article-img-1 {
+        max-width: 100% !important;
+    }
+    .reads {
+        width: 100% !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .music-articles {
+        width: 100% !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .meet-our-rj-section {
+        padding-left: 5px;
+    }
+    .swiper {
+        max-width: 100% !important;
+    }
+    .address-section {
+        align-items: center;
+        padding: 2rem;
+        padding-left: 3rem;
+    }
+
+    .rj-card {
+        font-size: 12px !important;
+    }
+    .movie-review {
+        padding: 5px;
+    }
+    .trending-reads {
+        padding: 5px !important;
+        padding-left: 10px !important;
+        margin-top: 1.5rem !important;
+        margin-left: 1.5rem !important;
+    }
+    .trending-reads-img img {
+        max-width: 223px !important;
+    }
+    .commnet-form {
+        margin: 2rem 2rem;
+    }
+    .mtmf-content{
+        margin: 0rem 7rem 0rem 11rem;
+    }
+    .trending-reads-content {
+        width: 100% !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .heading {
+        width: 80% !important;
+        padding: 5px !important;
+    }
+    .live-show-poster-1 {
+        max-width: 40% !important;
+    }
+    .video-1 {
+        width: 80% !important;
+    }
+    .dropdown-menu {
+        margin: 10px 10px !important;
+    }
+    .government-schemas-article-img-main {
+        height: 400px !important;
+    }
+    .video-container {
+        min-width: 100%;
+        min-height: auto;
+    }
+    .cover-img {
+        width: 290px !important;
+        height: 180px !important;
+    }
+    .job-description p {
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .static-content {
+        margin: 0 0;
+    }
+    .contact-us-form-1 {
+        padding: 0.5rem 10rem;
+    }
+    .goverment-schemes-container{
+        margin-left: 1rem;
+        margin-right: auto;
+    }
+    .footer-address {
+        padding: 0 0px;
+    }
+    .footer-social {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    footer {
+        width: 115% !important;
+        padding: 40px;
+    }
+    .footer-social-heading {
+        text-align: center !important;
+    }
+    .blog-list-1 {
+        width: 16rem;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .nav-item-active {
+        width: 100% !important;
+        background-color: rgba(143, 140, 193, 0.37);
+        border-radius: 45px 0px 0px 45px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+    .header-logo {
+        max-width: 100%;
+        margin-right: auto !important;
+        margin-left: auto !important;
+    }
+    .header-custome-1 {
+        overflow: hidden;
+    }
+    .main {
+        width: 100%;
+        margin: 0px auto;
+    }
+    .search-input {
+        width: 100% !important;
+    }
+    .header-custome-2 {
+        justify-content: flex-start !important;
+    }
+    .user-icon-1{
+        width: 60px;
+    }
+    #live-show-section {
+        padding-left: 1.5rem !important;
+        margin-top: 35px !important;
+    }
+    .live-show-img img {
+        max-width: 35%;
+        border-radius: 10px;
+    }
+    .show-detail {
+        width: fit-content;
+        /* padding-right: 175px; */
+        text-align: justify;
+    }
+    .photo-story-img {
+        /* min-height: 300px;
+        max-height: 300px */
+        height: 300px;
+        width: auto;
+    }
+    .swiper-slide {
+        /* max-width: 110px !important; */
+    }
+    .swiper {
+        /* width: 460px;
+        height: 194px; */
+    }
+    .article-img-1 {
+        max-width: 100% !important;
+    }
+    .reads {
+        width: 100% !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .address-section {
+        align-items: center;
+        padding: 2rem;
+        padding-left: 3rem;
+    }
+
+    .music-articles {
+        width: 100% !important;
+        text-align: justify;
+        padding-left: 10px !important;
+    }
+    .meet-our-rj-section {
+        padding-left: 5px;
+    }
+    .commnet-form {
+        margin: 2rem 2rem;
+    }
+    .swiper {
+        /* max-width: 100% !important; */
+        /* padding: auto; */
+    }
+    .rj-card {
+        font-size: 12px !important;
+    }
+    .movie-review {
+        padding: 5px;
+    }
+    .trending-reads {
+        padding: 5px !important;
+        padding-left: 10px !important;
+        margin-top: 1.5rem !important;
+        margin-left: 1.5rem !important;
+    }
+    .trending-reads-img img {
+        max-width: 100% !important;
+    }
+    .trending-reads-content {
+        width: 100% !important;
+        margin-bottom: 1.5rem !important;
+    }
+    .heading {
+        width: 100% !important;
+        padding: 5px !important;
+        margin-top: 30px !important;
+    }
+    .live-show-poster-1 {
+        max-width: 23% !important;
+    }
+    .video-1 {
+        width: 60% !important;
+    }
+    .blog-test-1 {
+        display: flex;
+    }
+    .dropdown-menu {
+        margin: 0px 200px !important;
+    }
+    .government-schemas-article-img-main {
+        height: 400px !important;
+    }
+    .video-container {
+        min-width: 100%;
+        min-height: 400px;
+    }
+    .cover-img {
+        width: 100% !important;
+        height: 300px !important;
+    }
+    .static-content {
+        margin: 1.5rem 1.5rem;
+    }
+    .job-description p {
+        padding-top: 0.5rem;
+        padding-bottom: 1rem;
+        padding-left: 12rem;
+        padding-right: 12rem;
+        font-size: medium;
+        text-align: justify;
+    }
+
+    .footer-address {
+        padding: 0 0px;
+    }
+    .footer-social {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    footer {
+        width: 100% !important;
+        padding: 40px;
+    }
+    .footer-social-heading {
+        text-align: center !important;
+    }
+    .blog-list-1 {
+        width: 23rem;
+    }
+}
